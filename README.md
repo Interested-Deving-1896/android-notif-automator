@@ -1,35 +1,75 @@
-# 🤖 Android Notification Automator
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# android-notif-automator
 
-Advanced automation engine for Android notifications — intercept, filter, respond, and trigger actions.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/android-notif-automator)
 
-## Features
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-- **Rule-based automation** — JSON rules with pattern matching
-- **Auto-reply** — respond to SMS/messages automatically
-- **Call blocking** — block calls/SMSfrom patterns
-- **Action triggers** — launch apps, send intents, run shell commands on notification
-- **No root required** — works via ADB + logcat monitoring
+## Architecture
 
-## Quick start
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
 ```bash
-python3 automator.py --rules rules.json
+git clone https://github.com/Interested-Deving-1896/android-notif-automator.git
+cd android-notif-automator
 ```
 
-## Rule format
+## Usage
 
-```json
-[
-  {
-    "trigger": {
-      "app": "com.google.android.apps.messaging",
-      "contains": ["urgent", "SOS"]
-    },
-    "actions": [
-      {"type": "reply", "text": "Got it, on my way!"},
-      {"type": "launch-app", "package": "com.google.android.apps.maps"},
-      {"type": "shell", "cmd": "settings put global development_settings_enabled 1"}
-    ]
-  }
-]
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/android-notif-automator`](https://github.com/Interested-Deving-1896/android-notif-automator) and mirrored through:
+
 ```
+Interested-Deving-1896/android-notif-automator  ──►  OpenOS-Project-OSP/android-notif-automator  ──►  OpenOS-Project-Ecosystem-OOC/android-notif-automator
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
